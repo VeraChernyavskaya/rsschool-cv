@@ -11,7 +11,7 @@
 ## Skills
 + HTML;
 + CSS;
-+ Git:
++ Git;
 + JS in progress.
 
 
