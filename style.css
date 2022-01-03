@@ -1,4 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  flex-grow: 1;
+  margin: 10px 40px;
+  display: flex;
+}
+
+.body {
+  background-color: #f8fae9;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+footer {
+  background-color: #d4d6c5;
+  padding: 10px 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 .photo {
-    width: 200px;
-    background-color: bisque;
+  width: 200px;
+}
+
+.logo {
+  width: 100px;
 }
