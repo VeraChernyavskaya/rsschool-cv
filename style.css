@@ -3,10 +3,24 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li img {
+  width: 20px;
+  margin-right: 4px;
+}
+
 .main {
   flex-grow: 1;
   margin: 10px 40px;
   display: flex;
+  flex-direction: column;
 }
 
 .body {
@@ -15,6 +29,23 @@
   margin: 0;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  margin: 40px 0;
+}
+
+.photo-wrapper {
+  display: flex;
+  width: 20vw;
+}
+
+.contacts-skills-wrapper,
+.education-language-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
 }
 
 .header,
@@ -26,7 +57,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: baseline;
 }
 
 .photo {
@@ -35,4 +66,15 @@ footer {
 
 .logo {
   width: 100px;
+}
+
+pre code {
+  background-color: #d4d6c5;
+  border: 1px solid #999;
+  display: block;
+  padding: 10px;
+}
+
+.summary-wrapper {
+  margin-bottom: 40px;
 }
