@@ -29,10 +29,10 @@ function century(year) {
 
 ## Projects:
 
-- Portfolio;
-- Eco-sounds;
-- Image-gallery;
-- Memory game
+- [Portfolio](https://rolling-scopes-school.github.io/verachernyavskaya-JSFEPRESCHOOL/portfolio/);
+- [Eco-sounds](https://rolling-scopes-school.github.io/verachernyavskaya-JSFEPRESCHOOL/eco-sounds/);
+- [Image-gallery](https://rolling-scopes-school.github.io/verachernyavskaya-JSFEPRESCHOOL/image-galery/);
+- [Memory-game](https://rolling-scopes-school.github.io/verachernyavskaya-JSFEPRESCHOOL/memory-game/)
 
 ## Languages:
 
