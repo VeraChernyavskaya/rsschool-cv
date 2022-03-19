@@ -54,6 +54,27 @@ footer {
   padding: 10px 40px;
 }
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.name-position {
+  display: flex;
+}
+
+.photo-name-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -79,13 +100,7 @@ pre code {
   margin-bottom: 40px;
 }
 
-.projects-item {
-  text-decoration: none;
-  color: #000000;
-  cursor: pointer;
-}
-
-.contacts-item {
+.link-item {
   text-decoration: none;
   color: #000000;
   cursor: pointer;
