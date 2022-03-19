@@ -70,11 +70,23 @@ footer {
 
 pre code {
   background-color: #d4d6c5;
-  border: 1px solid #999;
+  border: 1px solid #999999;
   display: block;
   padding: 10px;
 }
 
 .summary-wrapper {
   margin-bottom: 40px;
+}
+
+.projects-item {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.contacts-item {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
 }
