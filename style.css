@@ -3,6 +3,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   padding: 0;
 }
@@ -31,11 +35,6 @@ li img {
   min-height: 100vh;
 }
 
-.main-container {
-  display: flex;
-  margin: 40px 0;
-}
-
 .photo-wrapper {
   display: flex;
   width: 20vw;
@@ -59,10 +58,18 @@ footer {
   justify-content: flex-end;
 }
 
-.navigation {
+.nav-list {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
 }
 
 .name-position {
